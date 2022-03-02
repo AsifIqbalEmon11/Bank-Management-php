@@ -1,0 +1,13 @@
+First Name: aa 
+Last Name: bb 
+Present Address: aaaaaa 
+Parmanent Address: aaaaa 
+Birth Day 2022-03-01 
+Phone Number: 11 
+Email: aaaaaa 
+Web Link: aaaaaaaaaa 
+Username: aaaaaaaaaa 
+Password: 1 
+Confirm Password: 1 
+Gender: male 
+Religion: Islam 
