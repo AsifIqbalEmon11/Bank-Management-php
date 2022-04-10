@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<body>
+
+<h1>Registration</h1>
+<form  method="post" action="../controller/RegistrationAction.php"  novalidate>
+    <fieldset>
+        <legend>Basic Information :</legend>
+        <label for="fname">First name : </label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+
+        <label >Gender : </label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">female</label><br>
+        <br>
+
+
+
+        <label for="birthday" required>Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+        <label for="religion">Religion</label>
+        <select name="religion" id="religion" required>
+            <option value="0">Select</option>
+            <option value="Islam">Islam</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Cristian">Cristian</option>
+            <option value="Buddist">Buddist</option>
+        </select>
+
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Personal Information :</legend>
+
+        <label for="Present Address">Present Address </label>
+        <textarea id="Present Address" required name="presentAddress" rows="4" cols="50">
+
+        </textarea> <br><br>
+
+        <label for="Parmanent Address">Parmanent Address </label>
+        <textarea id="Parmanent Address" name="parmanentAddress" rows="4" cols="50">
+
+        </textarea> <br> <BR>
+
+        <label for="Phone">Phone </label>
+        <input type="tel" id="Phone" name="Phone"
+               placeholder="+880"  required><br><br>
+        <label for="email">Email Address </label>
+        <input name ="email" placeholder="johndoe@gmail.com" type="email" id="email" required name="email"> <br> <br>
+
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+
+        <legend>Credential :</legend>
+        <label for="username">User Name :</label>
+        <input  type="text" id="username" required name="username"> <br>
+
+        <label for="password">Password  :</label>
+        <input  type="password" id="password" required name="password"> <br>
+
+        <label for="confirmpassword">Confirm Password </label>
+        <input  type="confirmpassword" id="confirmpassword" required name="confirmpassword">
+
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit">
+<br><br>
+<a href="Login.php">Already have an account, Login</a>
+</form>
+
+
+</body>
+</html>
